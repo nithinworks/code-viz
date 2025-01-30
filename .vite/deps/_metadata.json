@@ -1,0 +1,259 @@
+{
+  "hash": "193c6d8a",
+  "configHash": "97ee3f96",
+  "lockfileHash": "e813e45f",
+  "browserHash": "b1724323",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "b6f249eb",
+      "needsInterop": true
+    },
+    "react-dom": {
+      "src": "../../node_modules/react-dom/index.js",
+      "file": "react-dom.js",
+      "fileHash": "5de20238",
+      "needsInterop": true
+    },
+    "mermaid": {
+      "src": "../../node_modules/mermaid/dist/mermaid.core.mjs",
+      "file": "mermaid.js",
+      "fileHash": "d751cf8e",
+      "needsInterop": false
+    },
+    "js2flowchart": {
+      "src": "../../node_modules/js2flowchart/dist/js2flowchart.js",
+      "file": "js2flowchart.js",
+      "fileHash": "c5c959ba",
+      "needsInterop": true
+    },
+    "esprima": {
+      "src": "../../node_modules/esprima/dist/esprima.js",
+      "file": "esprima.js",
+      "fileHash": "c95cb955",
+      "needsInterop": true
+    },
+    "java-parser": {
+      "src": "../../node_modules/java-parser/src/index.js",
+      "file": "java-parser.js",
+      "fileHash": "fa01fe4a",
+      "needsInterop": false
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "dcb34dfa",
+      "needsInterop": true
+    },
+    "react/jsx-runtime": {
+      "src": "../../node_modules/react/jsx-runtime.js",
+      "file": "react_jsx-runtime.js",
+      "fileHash": "375d80c2",
+      "needsInterop": true
+    },
+    "@excalidraw/excalidraw": {
+      "src": "../../node_modules/@excalidraw/excalidraw/main.js",
+      "file": "@excalidraw_excalidraw.js",
+      "fileHash": "d68b84f3",
+      "needsInterop": true
+    },
+    "@radix-ui/react-accordion": {
+      "src": "../../node_modules/@radix-ui/react-accordion/dist/index.mjs",
+      "file": "@radix-ui_react-accordion.js",
+      "fileHash": "1a82ead3",
+      "needsInterop": false
+    },
+    "@radix-ui/react-dialog": {
+      "src": "../../node_modules/@radix-ui/react-dialog/dist/index.mjs",
+      "file": "@radix-ui_react-dialog.js",
+      "fileHash": "0edf03e0",
+      "needsInterop": false
+    },
+    "@radix-ui/react-dropdown-menu": {
+      "src": "../../node_modules/@radix-ui/react-dropdown-menu/dist/index.mjs",
+      "file": "@radix-ui_react-dropdown-menu.js",
+      "fileHash": "3c4b8977",
+      "needsInterop": false
+    },
+    "@radix-ui/react-slot": {
+      "src": "../../node_modules/@radix-ui/react-slot/dist/index.mjs",
+      "file": "@radix-ui_react-slot.js",
+      "fileHash": "4003577a",
+      "needsInterop": false
+    },
+    "class-variance-authority": {
+      "src": "../../node_modules/class-variance-authority/dist/index.mjs",
+      "file": "class-variance-authority.js",
+      "fileHash": "943b6aa2",
+      "needsInterop": false
+    },
+    "clsx": {
+      "src": "../../node_modules/clsx/dist/clsx.mjs",
+      "file": "clsx.js",
+      "fileHash": "1017d510",
+      "needsInterop": false
+    },
+    "react-beautiful-dnd": {
+      "src": "../../node_modules/react-beautiful-dnd/dist/react-beautiful-dnd.esm.js",
+      "file": "react-beautiful-dnd.js",
+      "fileHash": "2cbfaaf6",
+      "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "fd762847",
+      "needsInterop": true
+    },
+    "react-hot-toast": {
+      "src": "../../node_modules/react-hot-toast/dist/index.mjs",
+      "file": "react-hot-toast.js",
+      "fileHash": "b58ac21d",
+      "needsInterop": false
+    },
+    "tailwind-merge": {
+      "src": "../../node_modules/tailwind-merge/dist/bundle-mjs.mjs",
+      "file": "tailwind-merge.js",
+      "fileHash": "a30a8ed1",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "sankeyDiagram-04a897e0-K3K7463O": {
+      "file": "sankeyDiagram-04a897e0-K3K7463O.js"
+    },
+    "blockDiagram-38ab4fdb-CGJBQCJU": {
+      "file": "blockDiagram-38ab4fdb-CGJBQCJU.js"
+    },
+    "classDiagram-70f12bd4-4CYPFIKB": {
+      "file": "classDiagram-70f12bd4-4CYPFIKB.js"
+    },
+    "classDiagram-v2-f2320105-H6GDIKXO": {
+      "file": "classDiagram-v2-f2320105-H6GDIKXO.js"
+    },
+    "chunk-7ORJVU6A": {
+      "file": "chunk-7ORJVU6A.js"
+    },
+    "stateDiagram-587899a1-ORAE2ULR": {
+      "file": "stateDiagram-587899a1-ORAE2ULR.js"
+    },
+    "stateDiagram-v2-d93cdb3a-KM5P5AXY": {
+      "file": "stateDiagram-v2-d93cdb3a-KM5P5AXY.js"
+    },
+    "chunk-3AJO6YPE": {
+      "file": "chunk-3AJO6YPE.js"
+    },
+    "journeyDiagram-49397b02-WHI2B2UJ": {
+      "file": "journeyDiagram-49397b02-WHI2B2UJ.js"
+    },
+    "flowchart-elk-definition-4a651766-PCEXOKH6": {
+      "file": "flowchart-elk-definition-4a651766-PCEXOKH6.js"
+    },
+    "timeline-definition-85554ec2-JVBWDCNL": {
+      "file": "timeline-definition-85554ec2-JVBWDCNL.js"
+    },
+    "mindmap-definition-fc14e90a-5N4MCOPG": {
+      "file": "mindmap-definition-fc14e90a-5N4MCOPG.js"
+    },
+    "gitGraphDiagram-72cf32ee-GYNLXHFB": {
+      "file": "gitGraphDiagram-72cf32ee-GYNLXHFB.js"
+    },
+    "ganttDiagram-c361ad54-2OSHASWW": {
+      "file": "ganttDiagram-c361ad54-2OSHASWW.js"
+    },
+    "infoDiagram-f8f76790-QDGCUF4U": {
+      "file": "infoDiagram-f8f76790-QDGCUF4U.js"
+    },
+    "pieDiagram-8a3498a8-X4KMDIUC": {
+      "file": "pieDiagram-8a3498a8-X4KMDIUC.js"
+    },
+    "quadrantDiagram-120e2f19-WAHHQUX4": {
+      "file": "quadrantDiagram-120e2f19-WAHHQUX4.js"
+    },
+    "xychartDiagram-e933f94c-RVIQJDB7": {
+      "file": "xychartDiagram-e933f94c-RVIQJDB7.js"
+    },
+    "requirementDiagram-deff3bca-OCQGBWJM": {
+      "file": "requirementDiagram-deff3bca-OCQGBWJM.js"
+    },
+    "sequenceDiagram-704730f1-HAPLVH4V": {
+      "file": "sequenceDiagram-704730f1-HAPLVH4V.js"
+    },
+    "katex-B26TF3AH": {
+      "file": "katex-B26TF3AH.js"
+    },
+    "c4Diagram-3d4e48cf-RR7ITW3Y": {
+      "file": "c4Diagram-3d4e48cf-RR7ITW3Y.js"
+    },
+    "chunk-SISBKNKK": {
+      "file": "chunk-SISBKNKK.js"
+    },
+    "flowDiagram-66a62f08-2RPYRIMT": {
+      "file": "flowDiagram-66a62f08-2RPYRIMT.js"
+    },
+    "flowDiagram-v2-96b9c2cf-FA732GRO": {
+      "file": "flowDiagram-v2-96b9c2cf-FA732GRO.js"
+    },
+    "chunk-HBBXVZ3A": {
+      "file": "chunk-HBBXVZ3A.js"
+    },
+    "chunk-PDBGWEDX": {
+      "file": "chunk-PDBGWEDX.js"
+    },
+    "chunk-5FZN4WSJ": {
+      "file": "chunk-5FZN4WSJ.js"
+    },
+    "chunk-AUTUOYOQ": {
+      "file": "chunk-AUTUOYOQ.js"
+    },
+    "chunk-EGIZHDCU": {
+      "file": "chunk-EGIZHDCU.js"
+    },
+    "erDiagram-9861fffd-QXXFBVLQ": {
+      "file": "erDiagram-9861fffd-QXXFBVLQ.js"
+    },
+    "chunk-AD6TUICL": {
+      "file": "chunk-AD6TUICL.js"
+    },
+    "chunk-OSSXNBFN": {
+      "file": "chunk-OSSXNBFN.js"
+    },
+    "chunk-C6AHBWGQ": {
+      "file": "chunk-C6AHBWGQ.js"
+    },
+    "chunk-FSZZLD4G": {
+      "file": "chunk-FSZZLD4G.js"
+    },
+    "chunk-FAVJRYCR": {
+      "file": "chunk-FAVJRYCR.js"
+    },
+    "chunk-KDVGFZWC": {
+      "file": "chunk-KDVGFZWC.js"
+    },
+    "chunk-ZN3G2ZXM": {
+      "file": "chunk-ZN3G2ZXM.js"
+    },
+    "chunk-K7US7FQN": {
+      "file": "chunk-K7US7FQN.js"
+    },
+    "chunk-5Q6227PI": {
+      "file": "chunk-5Q6227PI.js"
+    },
+    "chunk-RZK6HI5K": {
+      "file": "chunk-RZK6HI5K.js"
+    },
+    "chunk-CI4ASCZJ": {
+      "file": "chunk-CI4ASCZJ.js"
+    },
+    "chunk-YMDWH563": {
+      "file": "chunk-YMDWH563.js"
+    },
+    "chunk-QTVD6AVW": {
+      "file": "chunk-QTVD6AVW.js"
+    },
+    "chunk-PR4QN5HX": {
+      "file": "chunk-PR4QN5HX.js"
+    }
+  }
+}
