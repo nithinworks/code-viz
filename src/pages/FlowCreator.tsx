@@ -16,38 +16,38 @@ export function FlowCreator() {
   const editorContainerRef = useRef<HTMLDivElement>(null);
 
   // Load Microsoft Fabric Architecture Icons library
-  useEffect(() => {
-    const loadLibrary = async () => {
-      if (!excalidrawAPI || isLoadingLibrary) return;
+  // useEffect(() => {
+  //   const loadLibrary = async () => {
+  //     if (!excalidrawAPI || isLoadingLibrary) return;
 
-      try {
-        setIsLoadingLibrary(true);
+  //     try {
+  //       setIsLoadingLibrary(true);
 
-        // Fetch the library from the URL
-        // const response = await fetch(FABRIC_LIBRARY_URL);
-        // if (!response.ok) {
-        //   throw new Error('Failed to fetch library');
-        // }
+  //       // Fetch the library from the URL
+  //       // const response = await fetch(FABRIC_LIBRARY_URL);
+  //       // if (!response.ok) {
+  //       //   throw new Error('Failed to fetch library');
+  //       // }
 
-        const libraryData = await response.json();
+  //       //const libraryData = await response.json();
 
-        // Load the library into Excalidraw
-        await excalidrawAPI.updateLibrary({
-          libraryItems: libraryData.libraryItems,
-          openLibraryMenu: true // Open library menu to show the loaded icons
-        });
+  //       // Load the library into Excalidraw
+  //       // await excalidrawAPI.updateLibrary({
+  //       //   libraryItems: libraryData.libraryItems,
+  //       //   openLibraryMenu: true // Open library menu to show the loaded icons
+  //       // });
         
-        toast.success('Microsoft Fabric Architecture Icons loaded');
-      } catch (error) {
-        console.error('Error loading library:', error);
-        toast.error('Failed to load icon library. The editor will still work without the icons.');
-      } finally {
-        setIsLoadingLibrary(false);
-      }
-    };
+  //       toast.success('Microsoft Fabric Architecture Icons loaded');
+  //     } catch (error) {
+  //       console.error('Error loading library:', error);
+  //       toast.error('Failed to load icon library. The editor will still work without the icons.');
+  //     } finally {
+  //       setIsLoadingLibrary(false);
+  //     }
+  //   };
 
-    loadLibrary();
-  }, [excalidrawAPI]);
+  //   loadLibrary();
+  // }, [excalidrawAPI]);
 
   const onChange = useCallback(
     (elements: readonly ExcalidrawElement[], appState: AppState, files: BinaryFiles) => {
