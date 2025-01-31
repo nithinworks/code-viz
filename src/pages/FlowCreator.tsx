@@ -7,7 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { toast } from '@/components/ui/toast';
 
-const FABRIC_LIBRARY_URL = 'https://libraries.excalidraw.com/libraries/mwc360/microsoft-fabric-architecture-icons.excalidrawlib';
+//const FABRIC_LIBRARY_URL = 'https://libraries.excalidraw.com/libraries/mwc360/microsoft-fabric-architecture-icons.excalidrawlib';
 
 export function FlowCreator() {
   const [excalidrawAPI, setExcalidrawAPI] = useState<any>(null);
@@ -24,10 +24,10 @@ export function FlowCreator() {
         setIsLoadingLibrary(true);
 
         // Fetch the library from the URL
-        const response = await fetch(FABRIC_LIBRARY_URL);
-        if (!response.ok) {
-          throw new Error('Failed to fetch library');
-        }
+        // const response = await fetch(FABRIC_LIBRARY_URL);
+        // if (!response.ok) {
+        //   throw new Error('Failed to fetch library');
+        // }
 
         const libraryData = await response.json();
 
