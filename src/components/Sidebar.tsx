@@ -152,7 +152,7 @@ export function Sidebar({ className }: SidebarProps) {
                 <div className="h-8 w-8 rounded-full bg-gradient-to-br from-[#0070f3] to-[#00a2ff] flex items-center justify-center shrink-0">
                   <span className="text-xs font-semibold text-white">CV</span>
                 </div>
-                <span className="text-base font-semibold">Code Visualizer</span>
+                <span className="text-base font-semibold">Code Flow</span>
               </div>
               {isMobile && (
                 <Button
@@ -219,7 +219,7 @@ export function Sidebar({ className }: SidebarProps) {
                 <span className="text-xs font-semibold text-white">CV</span>
               </div>
               <div className="flex flex-col min-w-0">
-                <span className="text-sm font-medium truncate">Code Visualizer</span>
+                <span className="text-sm font-medium truncate">Code Flow</span>
                 <span className="text-xs text-muted-foreground">v1.0.0</span>
               </div>
             </div>
